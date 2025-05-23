@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (max-width: 768px) {
+    #one, #last {
+        padding-left: 5px; /* Reduce padding */
+        text-align: center; /* Center content */
+    }
+
+    img {
+        width: 120px; /* Reduce image size */
+        height: 120px;
+    }
+
+    #f {
+        flex-direction: column; /* Stack project boxes vertically */
+        align-items: center;
+    }
+
+    .t {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 10px; /* Reduce margin */
+    }
+
+    #two, #Th {
+        padding: 10px; /* Reduce padding */
+    }
+}
+
+        #one {
+            padding: 5px;
+            padding-left: 600px;
+            background-color: gainsboro;
+            border: 1px solid black;
+        }
+
+        #two {
+            margin: 15px;
+            padding: 10px;
+            background-color: rgb(157, 167, 167);
+            border: 1px solid black;
+        }
+
+        #Th {
+            margin: 15px;
+            padding: 10px;
+            background-color: rgb(157, 167, 167);
+            border: 1px solid black;
+        }
+
+        #f {
+            display: flex;
+            
+        }
+
+        .t {
+            height: 300px;
+            width: 400px;
+            padding: 10px;
+            background-color: beige;
+            border-radius: 5px;
+            line-height: 23px;
+            margin-right:30px;
+            margin-left: 30px;
+        }
+        #last{
+            padding: 5px;
+            padding-left: 600px;
+            background-color: gainsboro;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="one">
+        <img src="sumapic.jpg" height="200px" width="200px"></img>
+        <h3>MUTHYALA SUMASRI</h3>
+        <p>web developer | designer |Tech</p>
+    </div>
+    <div id="two">
+        <h2>ABOUT ME</h2>
+        <p style="text-indent: 20px;">I am Muthyala Sumasri, a B.Tech graduate in Information Technology from NRI
+            Institute of Technology. I have a strong passion for Python development and hands-on experience through
+            internships at Codsoft and BIST Technologies, where I worked on projects like number plate detection using
+            Yolov7 and various Python applications. I have also gained knowledge in web development, SQL, and DevOps. My
+            certifications in "The Joy of Computing Using Python" and "Cloud Computing" from NPTEL further strengthen my
+            technical foundation. I am eager to apply my skills and continuously learn in a dynamic work environment.
+        </p>
+    </div>
+    <div id="Th">
+        <h2>MY PROJECTS</h2>
+        <div id="f">
+            <div class="t">
+                <h4>TO DO LIST</h4>
+                <p style="text-indent: 40px;">During my internship at Codsoft, I developed a To-Do List application
+                    using Python, focusing on user-friendly functionality and efficient task management. The application
+                    allows users to add, delete, and update tasks while ensuring smooth execution with proper input
+                    validation and error handling. I implemented file handling to save and retrieve tasks, making it
+                    more practical for real-world use. This project enhanced my problem-solving skills, strengthened my
+                    understanding of Python data structures, and improved my ability to write clean, modular code.</p>
+            </div>
+            <div class="t">
+                <h4>LANDING PAGE</h4>
+                <p style="text-indent: 40px;">I designed and developed a Landing Page using HTML and CSS, focusing on a
+                    clean and responsive layout. The page includes structured sections like a header, hero banner,
+                    services, and contact details for an engaging user experience. I implemented CSS styling techniques,
+                    including flexbox and grid, to ensure responsiveness across devices. The design follows modern UI
+                    principles, enhancing aesthetics and functionality. This project improved my front-end development
+                    skills and deepened my understanding of web design concepts.</p>
+            </div>
+            <div class="t">
+                <h4>CALCULATOR</h4>
+                <p style="text-indent: 40px;">I developed a Calculator using Python, enabling basic arithmetic operations like addition, subtraction, multiplication, and division. The program features a simple and interactive user interface for easy input handling. I implemented error handling to manage invalid inputs and division by zero. The calculator follows a structured approach using functions for better code organization. This project strengthened my logical thinking and improved my Python programming skills.</p>
+
+            </div>
+        </div>
+    </div>
+    <div id="last">
+        <p>CONTACT ME AT <a href="image.png">sumasri642@gmail.com</a></p>
+    </div>
+</body>
+
+</html>
