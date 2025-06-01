@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: coral;">
+    <h4>Dear student to login into the clg website please fill the following form</h4>
+    <form action="img.jpg">
+        <fieldset style="background-color: bisque;">
+            <legend>student details</legend>
+            <label for="name">enter student name:</label>
+            <input type="text" id="name" name="name" placeholder="enter your name" pattern="[A-Za-z0-9]+">*</input><br><br>
+            <label for="id">enter id number:</label>
+            <input type="text" id="id" name="id" placeholder="enter your id"></input><br><br>
+            <label for="code">enter passcode:</label>
+            <input type="password" id="code" name="code" placeholder="password" size="4" maxlength="2"></input><br><br>
+            <label for="mail">email:</label>
+            <input type="email" id="mail" name="mail" placeholder="@gmail.com"></input><br><br>
+            <p>select gender:</p>
+            <input type="radio" id="male" name="gender" value="male"></input>
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female"></input>
+            <label for="female">female</label><br><br>
+            <label for="dob">enter date of birth:</label>
+            <input type="date" id="dob" name="dob"></input><br><br>
+            <label for="subject">select subjects:</label><br>
+            <input type="checkbox" id="subject" name="subject">C</input><br>
+            <input type="checkbox" id="subject" name="subject">C++</input><br>
+            <input type="checkbox" id="subject" name="subject">Java</input><br>
+            <input type="checkbox" id="subject" name="subject">Python</input><br>
+            <input type="checkbox" id="subject" name="subject">SQL</input><br>
+            <input type="checkbox" id="subject" name="subject">JavaScript</input><br><br>
+            <label for="file">upload cv:</label>
+            <input type="file" id="file" name="file" multiple></input><br><br>
+            <label for="lk">Linkdin Url:</label>
+            <input type="url" id="lk" name="lk"></input><br><br>
+            <fieldset style="background-color:darkkhaki;">
+                <legend>personal details</legend>
+                <label for="color">enter fav color:</label>
+            <input type="color" id="color" name="color"></input><br><br>
+            <label for="num">your lucky number:</label>
+            <input type="number" id="num" name="num" step="3"></input><br><br>
+            <label for="r">enter range:</label>
+            <input type="range" id="r" name="r"></input><br><br>
+            <label for="color">select fav fruit</label>
+            <select>
+                <option>apple</option>
+                <option>banana</option>
+                <option>kiwi</option>
+                <option>grapes</option>
+            </select><br><br>
+            </fieldset><br>
+            <label for="tf">enter feedback:</label>
+            <textarea name="tf" id="tf" rows="5" cols="30"></textarea>
+            <br><br><label for="submit"></label>
+            <input type="submit">
+        </fieldset>
+    </form>
+    <table>
+
+    </table>
+</body>
+</html>
